@@ -1,0 +1,44 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-future-northants-blocks-section-link {
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: column;
+	margin-bottom: var(--wp--preset--spacing--30);
+	padding: var(--wp--preset--spacing--30);
+	width: 100%;
+
+	@media only screen and (min-width: 800px) {
+		width: 33.33%;
+	}
+
+	a {
+		padding: var(--wp--preset--spacing--30);
+		cursor: pointer;
+		text-decoration: none;
+		border-radius: 3px;
+
+		h2 {
+			text-decoration: underline;
+		}
+
+		p {
+			text-decoration: none;
+			font-weight: normal;
+			color: var(--wp--preset--color--black);
+		}
+
+		&:hover {
+			background: var(--wp--preset--color--action-light);
+
+			h2 {
+				text-decoration: dashed;
+			}
+		}
+	}
+}

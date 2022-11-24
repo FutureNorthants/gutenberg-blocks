@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "future-northants-blocks/section-links",
+	"version": "0.1.0",
+	"title": "Section Links",
+	"category": "widgets",
+	"icon": "grid-view",
+	"description": "A block of section links with a title",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "future-northants-blocks",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"source": "text",
+			"selector": "h2",
+			"default": "Title"
+		}
+	}
+}

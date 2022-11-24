@@ -1,0 +1,34 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "future-northants-blocks/section-link",
+	"version": "0.1.0",
+	"title": "Section Link",
+	"category": "widgets",
+	"icon": "align-center",
+	"description": "A section link contains a title, summary and image",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "future-northants-blocks",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"source": "text",
+			"selector": "h3",
+			"default": "Title"
+		},
+		"summary": {
+			"type": "string",
+			"source": "text",
+			"selector": "p",
+			"default": "Summary"
+		},
+		"url": {
+			"type": "string"
+		}
+	}
+}

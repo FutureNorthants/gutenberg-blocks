@@ -1,0 +1,7 @@
+{
+  "name": "future-northants/gutenberg-blocks",
+  "description": "A collection of Gutenberg blocks for use with the Future Northants starter theme",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0-or-later",
+  "require": {}
+}

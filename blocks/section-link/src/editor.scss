@@ -1,0 +1,12 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-future-northants-blocks-section-link {
+	width: calc(100% - var(--wp--preset--spacing--50) - var(--wp--preset--spacing--50));
+	margin-bottom: var(--wp--preset--spacing--60);
+	border: 1px dotted var(--wp--preset--color--grey);
+	padding: var(--wp--preset--spacing--50);
+}
